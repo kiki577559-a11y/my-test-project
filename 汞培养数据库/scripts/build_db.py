@@ -75,6 +75,11 @@ CONV = {
     "μg/kg": ("MeHg THg", "ng/g 干重", 1, "μg/kg = ng/g，数值不变"),
     "ng·g−1": ("MeHg THg", "ng/g 干重", 1, "单位同义，不变"),
     "ng/g": ("MeHg THg", "ng/g 干重", 1, "单位同义，不变"),
+    "μg·kg−1": ("MeHg THg", "ng/g 干重", 1, "μg/kg = ng/g，数值不变"),
+    "μg kg−1": ("MeHg THg", "ng/g 干重", 1, "μg/kg = ng/g，数值不变"),
+    "mg kg−1": ("MeHg THg", "ng/g 干重", 1000, "mg/kg 乘以 1000"),
+    "ng g−1": ("MeHg THg", "ng/g 干重", 1, "单位同义，不变"),
+    "pg/g": ("MeHg THg", "ng/g 干重", 1e-3, "pg/g 除以 1000"),
     "%": ("%MeHg", "%", 1, "不变"),
 }
 
@@ -138,9 +143,9 @@ def qc_rows(mod):
     rows = []
     stem = mod.PAPER["文件名"]
     for e in mod.T1:
-        miss = [k for k in KEY_FIELDS if str(e.get(k, "")).startswith("未报道")]
+        miss = [k for k in KEY_FIELDS if str(e.get(k) or "未报道").startswith("未报道")]
         if "B" in e["实验类型"]:
-            miss += [k for k in ("Km公式", "Kd公式") if str(e.get(k, "")).startswith("未报道")]
+            miss += [k for k in ("Km公式", "Kd公式") if str(e.get(k) or "未报道").startswith("未报道")]
         sis = [k for k, _ in T1_COLS if "需查 SI" in str(e.get(k, ""))]
         unc = [f"{k}：{str(e.get(k))[:60]}" for k, _ in T1_COLS if "不确定" in str(e.get(k, ""))]
         ests = [r for r in mod.T2 if r[0] == e["实验编号"] and r[5].strip().startswith("(")]
@@ -167,7 +172,8 @@ def main():
         mod = importlib.import_module(f"data.papers.{name}")
         for e in mod.T1:
             full = {**mod.PAPER, **e}
-            w1.append([full.get(k, "") for k, _ in T1_COLS])
+            # 未填写的字段一律视为原文未报道
+            w1.append([full.get(k) if full.get(k) not in (None, "") else "未报道" for k, _ in T1_COLS])
         for r in mod.T2:
             u, uu, note = convert(r, conv_log)
             w2.append(list(r[:7]) + [u, uu] + list(r[7:10]) + [note])

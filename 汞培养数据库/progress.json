@@ -2,7 +2,13 @@
  "done": [
   "du2019_ep",
   "wu2020_est",
-  "zhong2024_stoten"
+  "zhong2024_stoten",
+  "li2023_ees",
+  "zhang2026_jhm",
+  "pu2024_jhm",
+  "zhong2024_nf",
+  "liu2023_est",
+  "zhou2020_est"
  ],
  "log": [
   {
@@ -19,6 +25,36 @@
    "paper": "zhong2024_stoten",
    "file": "STOTEN_汞供应限制稻田土壤甲基汞的产生.pdf",
    "time": "2026-11-05T07:50:37"
+  },
+  {
+   "paper": "li2023_ees",
+   "file": "EES_限氧稻田土壤中的微生物群落功能与甲基汞产生.pdf",
+   "time": "2026-11-05T07:59:42"
+  },
+  {
+   "paper": "zhang2026_jhm",
+   "file": "JHM_微生物多样性调控稻田土壤汞循环.pdf",
+   "time": "2026-11-05T07:59:42"
+  },
+  {
+   "paper": "pu2024_jhm",
+   "file": "JHM_稻田土壤关键活性汞甲基化微生物及其对甲基汞产生的协同作用.pdf",
+   "time": "2026-11-05T07:59:42"
+  },
+  {
+   "paper": "zhong2024_nf",
+   "file": "NF_土壤地杆菌科是水稻神经毒性甲基汞生物积累的关键预测因子.pdf",
+   "time": "2026-11-05T07:59:42"
+  },
+  {
+   "paper": "liu2023_est",
+   "file": "EST_汞与硫的氧化还原循环影响污染梯度稻田土壤甲基汞水平.pdf",
+   "time": "2026-11-05T07:59:42"
+  },
+  {
+   "paper": "zhou2020_est",
+   "file": "EST_稻田土壤中与甲基汞降解相关的微生物群落.pdf",
+   "time": "2026-11-05T07:59:42"
   }
  ]
 }
