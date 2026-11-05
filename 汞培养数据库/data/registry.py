@@ -8,3 +8,6 @@ PAPERS = [
 PAPERS += [  # 第2批
     "chen2023_jhm", "wu2023_jhm", "zhou2025_nc", "hao2024_stoten", "zhang2024_stoten", "zhang2023_ep",
 ]
+PAPERS += [  # 第3批
+    "hu2024_ep", "li2019_est", "wang2021_est", "liu2023_fese", "li2026_nc", "he2023_chemosphere",
+]
