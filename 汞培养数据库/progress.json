@@ -20,7 +20,12 @@
   "wang2021_est",
   "liu2023_fese",
   "li2026_nc",
-  "he2023_chemosphere"
+  "he2023_chemosphere",
+  "tang2019_est",
+  "boie2024_jhm",
+  "yang2022_jhm",
+  "wang2026_jhm",
+  "li2023_jhm"
  ],
  "log": [
   {
@@ -127,6 +132,31 @@
    "paper": "he2023_chemosphere",
    "file": "Chemosphere_老化水稻秸秆降低稻田土壤汞和甲基汞的生物有效性.pdf",
    "time": "2026-11-05T08:09:17"
+  },
+  {
+   "paper": "tang2019_est",
+   "file": "EST−秸秆改良对水稻甲基汞积累的影响.pdf",
+   "time": "2026-11-05T08:12:14"
+  },
+  {
+   "paper": "boie2024_jhm",
+   "file": "JHM_可控氧化还原变化下田间老化稻壳生物炭促进稻田土壤汞甲基化并改变微生物群落.pdf",
+   "time": "2026-11-05T08:12:14"
+  },
+  {
+   "paper": "yang2022_jhm",
+   "file": "JHM_微塑料对不同类型稻田土壤汞甲基化的影响.pdf",
+   "time": "2026-11-05T08:12:14"
+  },
+  {
+   "paper": "wang2026_jhm",
+   "file": "JHM_有机物料诱导的还原条件促进稻田土壤汞甲基化：来自铁硫还原的证据.pdf",
+   "time": "2026-11-05T08:12:14"
+  },
+  {
+   "paper": "li2023_jhm",
+   "file": "JHM_氮和硫添加减缓碳对稻田土壤微生物汞甲基化的促进作用.pdf",
+   "time": "2026-11-05T08:12:14"
   }
  ]
 }

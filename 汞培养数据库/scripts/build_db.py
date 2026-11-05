@@ -75,6 +75,7 @@ CONV = {
     "μg/kg": ("MeHg THg", "ng/g 干重", 1, "μg/kg = ng/g，数值不变"),
     "ng·g−1": ("MeHg THg", "ng/g 干重", 1, "单位同义，不变"),
     "ng/g": ("MeHg THg", "ng/g 干重", 1, "单位同义，不变"),
+    "µg/kg": ("MeHg THg", "ng/g 干重", 1, "μg/kg = ng/g，数值不变"),
     "μg·kg−1": ("MeHg THg", "ng/g 干重", 1, "μg/kg = ng/g，数值不变"),
     "μg kg−1": ("MeHg THg", "ng/g 干重", 1, "μg/kg = ng/g，数值不变"),
     "mg kg−1": ("MeHg THg", "ng/g 干重", 1000, "mg/kg 乘以 1000"),

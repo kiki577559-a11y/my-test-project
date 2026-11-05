@@ -11,3 +11,6 @@ PAPERS += [  # 第2批
 PAPERS += [  # 第3批
     "hu2024_ep", "li2019_est", "wang2021_est", "liu2023_fese", "li2026_nc", "he2023_chemosphere",
 ]
+PAPERS += [  # 第4批
+    "tang2019_est", "boie2024_jhm", "yang2022_jhm", "wang2026_jhm", "li2023_jhm",
+]
