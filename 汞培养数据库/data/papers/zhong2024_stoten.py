@@ -109,7 +109,7 @@ T1 = [
               "【取样时间点】“After incubation for 7, 14, 21, and 35 days, three tubes from each treatment were randomly selected and centrifuged to separate soil particles from the overlying water.”（p.3）\n"
               "【汞剂量】未外加汞。\n" + _KM_EXC),
      "需查SI字段": "各时间点 MeHg、km、kd、溶解态 THg 的数值（Fig. S7–S10）；土壤性质",
-     "备注": "正文只给出相对变化（如 MeHg 在第7/14/21/35 d 分别增加 13.5%–189%、18.4%–113.1%、2.7%–163%、20.1%–709.5%），这些不是表2规定的指标，未列入表2。km/kd 是否在每个时间点都测定：不确定（方法写“On each sampling day”，结果写“during the 35-day incubation period (Figs. S8–9)”）。",
+     "备注": "正文只给出相对变化（如 MeHg 在第7/14/21/35 d 分别增加 13.5%–189%、18.4%–113.1%、2.7%–163%、20.1%–709.5%），这些不是表2规定的指标，未列入表2。不确定：Exp II 的方法段落没有列出 km/kd；但 km/kd 方法写“incubated as described in incubation experiment I. On each sampling day…”，结果 3.2 写“the dynamics of key parameters related to Hg methylation, including km & kd … were monitored in 8 soils”（p.5），且 Fig. 3a、b（标题为 Temporal variation experiments）绘制了 km、kd 与 MeHg 的关系，数值见 Figs. S8–9（SI 未提供），因此判断 Exp II 测了 km/kd，但具体在哪些天测定原文未说明。正文“km and kd increased by 106–174 % and 28–326 %”指加秸秆（RS）相对于对照（CK）的增幅，不是随时间的变化。",
      },
     {**_COMMON, **_NOTRACER,
      "实验编号": "Zhong2024_STOTEN_Exp3",
